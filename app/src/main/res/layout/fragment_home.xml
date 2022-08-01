@@ -35,26 +35,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="High"
-                android:backgroundTint="@color/edit_txt_back"
                 android:textColor="@color/red_color"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                app:chipBackgroundColor="@color/edit_txt_back"/>
             <com.google.android.material.chip.Chip
                 style="@style/Widget.MaterialComponents.Chip.Filter"
                 android:id="@+id/chipMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Medium"
-                android:backgroundTint="@color/edit_txt_back"
-                android:textColor="@color/yellow_color"/>
+                android:textColor="@color/yellow_color"
+                app:chipBackgroundColor="@color/edit_txt_back"/>
             <com.google.android.material.chip.Chip
                 style="@style/Widget.MaterialComponents.Chip.Filter"
                 android:id="@+id/chipLow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Low"
-                android:backgroundTint="@color/edit_txt_back"
                 android:textColor="@color/green_color"
-                android:textStyle="bold"/>
+                app:chipBackgroundColor="@color/edit_txt_back"/>
         </com.google.android.material.chip.ChipGroup>
     </LinearLayout>
 

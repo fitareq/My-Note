@@ -30,4 +30,6 @@ class NotesViewModel(application: Application):AndroidViewModel(application) {
     fun updateNotes(notes: Notes){
         repository.updateNotes(notes)
     }
+
+    fun getAllNotesByPriority(p: String): LiveData<List<Notes>> = repository.getAllNotesByPriority(p)
 }

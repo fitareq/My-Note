@@ -17,4 +17,8 @@
     <style name="progressBar" >
         <item name="colorSecondary">@color/red_color</item>
     </style>
+
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Filter" >
+        
+    </style>
 </resources>

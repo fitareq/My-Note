@@ -9,6 +9,9 @@ interface NotesDao {
     @Query("SELECT * FROM Notes")
     fun getNotes():LiveData<List<Notes>>
 
+    @Query("SELECT * FROM Notes WHERE priority=:p")
+    fun getNotesByPriority(p: String):LiveData<List<Notes>>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertNotes(notes: Notes)
 

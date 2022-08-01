@@ -22,4 +22,6 @@ class NotesRepository(private val dao: NotesDao) {
     fun updateNotes(notes: Notes){
         dao.updateNotes(notes)
     }
+
+    fun getAllNotesByPriority(p: String): LiveData<List<Notes>> = dao.getNotesByPriority(p)
 }

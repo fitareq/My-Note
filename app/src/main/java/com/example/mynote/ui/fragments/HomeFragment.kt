@@ -39,10 +39,14 @@ class HomeFragment : Fragment() {
             Navigation.findNavController(it).navigate(R.id.action_homeFragment_to_createNoteFragment)
         }
 
-        binding.chipHigh.setOnClickListener {
-            if (binding.chipHigh.isChecked) Toast.makeText(context, "High Checked", Toast.LENGTH_LONG)
-            else Toast.makeText(context, "High unchecked", Toast.LENGTH_LONG)
-        }
+        binding.chipGroup.setOnCheckedStateChangeListener { group, _ ->
+            when(group.checkedChipId){
+               R.id.chipHigh -> Toast.makeText(context, "High", Toast.LENGTH_LONG).show()
+               R.id.chipMedium -> Toast.makeText(context, "Medium", Toast.LENGTH_LONG).show()
+               R.id.chipLow -> Toast.makeText(context, "Low", Toast.LENGTH_LONG).show()
+            }
+
+          }
 
         return binding.root
     }
