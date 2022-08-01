@@ -41,9 +41,16 @@ class HomeFragment : Fragment() {
 
         binding.chipGroup.setOnCheckedStateChangeListener { group, _ ->
             when(group.checkedChipId){
-               R.id.chipHigh -> Toast.makeText(context, "High", Toast.LENGTH_LONG).show()
-               R.id.chipMedium -> Toast.makeText(context, "Medium", Toast.LENGTH_LONG).show()
-               R.id.chipLow -> Toast.makeText(context, "Low", Toast.LENGTH_LONG).show()
+               R.id.chipHigh -> {
+                   Toast.makeText(context, "High", Toast.LENGTH_LONG).show()
+               }
+               R.id.chipMedium -> {
+                   Toast.makeText(context, "Medium", Toast.LENGTH_LONG).show()
+               }
+               R.id.chipLow -> {
+                   Toast.makeText(context, "Low", Toast.LENGTH_LONG).show()
+               }
+
             }
 
           }
