@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/MyNote/app/src/main/res/drawable-v24/red_dot.xml" value="0.235" />
+        <entry key="..\:/MyNote/app/src/main/res/drawable/bottom_sheet_back.xml" value="0.235" />
         <entry key="..\:/MyNote/app/src/main/res/drawable/btn_filter_shape.xml" value="0.235" />
         <entry key="..\:/MyNote/app/src/main/res/drawable/edit_txt_shape.xml" value="0.235" />
         <entry key="..\:/MyNote/app/src/main/res/drawable/green_dot.xml" value="0.235" />
+        <entry key="..\:/MyNote/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.235" />
         <entry key="..\:/MyNote/app/src/main/res/drawable/no_btn.xml" value="0.235" />
         <entry key="..\:/MyNote/app/src/main/res/drawable/red_dot.xml" value="0.235" />
         <entry key="..\:/MyNote/app/src/main/res/drawable/yellow_dot.xml" value="0.235" />
@@ -18,6 +20,7 @@
         <entry key="..\:/MyNote/app/src/main/res/layout/fragment_edit_notes.xml" value="0.36666666666666664" />
         <entry key="..\:/MyNote/app/src/main/res/layout/fragment_home.xml" value="0.3907766990291262" />
         <entry key="..\:/MyNote/app/src/main/res/layout/item_notes.xml" value="0.36666666666666664" />
+        <entry key="..\:/MyNote/app/src/main/res/menu/delete_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

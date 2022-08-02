@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp"
     android:background="@color/back_color"
     android:orientation="vertical">
 
@@ -21,7 +22,7 @@
         android:textStyle="bold"
         android:textColor="@color/white"/>
     <TextView
-        android:id="@+id/btnYes"
+        android:id="@+id/btnNo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -33,7 +34,7 @@
         android:background="@drawable/no_btn"
         android:padding="10dp"/>
     <TextView
-        android:id="@+id/btnNo"
+        android:id="@+id/btnYes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"

@@ -18,7 +18,10 @@
         <item name="colorSecondary">@color/red_color</item>
     </style>
 
-    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Filter" >
-        
+    <style name="BottomSheetStyle" parent="Theme.Design.Light.BottomSheetDialog" >
+        <item name="bottomSheetStyle">@style/Modal</item>
+    </style>
+    <style name="Modal" parent="Widget.Design.BottomSheet.Modal" >
+        <item name="background">@drawable/bottom_sheet_back</item>
     </style>
 </resources>
